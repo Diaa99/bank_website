@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>DH</title>
+    <script defer src="java.js"></script>
+  </head>
+  <body>
+    <div class="container-xxxl">
+      <div class="row">
+        <div class="nav d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <svg
+              width="54"
+              height="55"
+              viewBox="0 0 54 55"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M50.388 17.3332C51.6344 20.6235 52.2519 24.5379 51.9038 29.1664C50.4602 48.3662 36.9749 53.0551 30.4127 52.9995H5.64054L40.0919 25.5397M50.388 17.3332C48.8209 13.1966 46.2597 10.0464 43.373 7.70335M50.388 17.3332L40.0919 25.5397M43.373 7.70335C39.031 4.17915 33.9526 2.48118 30.4127 2H4L23.1943 24.9998L33.2837 16.3516M43.373 7.70335L33.2837 16.3516M33.2837 16.3516L40.0919 25.5397"
+                stroke="url(#paint0_linear_1_12)"
+                stroke-width="3"
+              />
+              <defs>
+                <linearGradient
+                  id="paint0_linear_1_12"
+                  x1="-18.3114"
+                  y1="88.3325"
+                  x2="35.9413"
+                  y2="-3.92377"
+                  gradientUnits="userSpaceOnUse"
+                >
+                  <stop stop-color="#A6ECE0" />
+                  <stop offset="1" stop-color="#0F6244" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="nav__links">
+            <a class="nav__link" href="#section--2">Features</a>
+            <a class="nav__link" href="#section--3">Opreations</a>
+            <a class="nav__link" href="#section--4">Testimonials</a>
+          </div>
+          <button class="btn__login">Sign in</button>
+          <div class="responsive">
+            <div class="hamburger">
+              <div class="line-1"></div>
+              <div class="line-2"></div>
+            </div>
+          </div>
+          <div class="menu hidden nav__links_">
+            <a class="nav__link_" href="#section--2">Features</a>
+            <a class="nav__link_" href="#section--3">Opreations</a>
+            <a class="nav__link_" href="#section--4">Testimonials</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section section--1">
+      <div class="description">
+        <div class="title">
+          <h1>
+            When <span class="highlight">banking</span> meets<br /><span
+              class="highlight"
+              >minimalist</span
+            >
+          </h1>
+        </div>
+        <div class="info">A simpler banking experience for a simpler life.</div>
+        <div class="btn--learn_more">Learn more ↓</div>
+      </div>
+      <div class="image">
+        <svg
+          width="597"
+          height="470"
+          viewBox="0 0 597 470"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g id="undraw_mobile_pay_re_sjb8 1" clip-path="url(#clip0_1_55)">
+            <path
+              id="Vector"
+              d="M293.802 106.786H291.333V39.1475C291.333 28.765 287.209 18.8076 279.867 11.4661C272.526 4.12447 262.568 1.29463e-05 252.186 2.48453e-10H108.884C103.743 -1.83147e-05 98.6523 1.01254 93.9027 2.97987C89.1531 4.9472 84.8375 7.83076 81.2023 11.4659C77.5671 15.1011 74.6835 19.4167 72.7162 24.1662C70.7488 28.9158 69.7362 34.0064 69.7362 39.1473V410.219C69.7362 415.36 70.7487 420.45 72.7161 425.2C74.6834 429.95 77.567 434.265 81.2022 437.9C84.8374 441.536 89.1529 444.419 93.9025 446.386C98.6521 448.354 103.743 449.366 108.884 449.366H252.186C257.327 449.366 262.417 448.354 267.167 446.387C271.916 444.419 276.232 441.536 279.867 437.9C283.502 434.265 286.386 429.95 288.353 425.2C290.321 420.451 291.333 415.36 291.333 410.219V154.933H293.802V106.786Z"
+              fill="#3F3D56"
+            />
+            <path
+              id="Vector_2"
+              d="M253.471 11.1107H234.765C235.625 13.2197 235.954 15.5079 235.721 17.7736C235.489 20.0394 234.703 22.2133 233.432 24.1037C232.162 25.9942 230.446 27.5432 228.436 28.6142C226.426 29.6853 224.183 30.2456 221.905 30.2458H139.809C137.532 30.2456 135.289 29.6853 133.279 28.6142C131.269 27.5432 129.553 25.9942 128.282 24.1037C127.012 22.2133 126.226 20.0394 125.993 17.7737C125.761 15.5079 126.089 13.2197 126.95 11.1107H109.478C101.725 11.1107 94.2888 14.1908 88.8062 19.6734C83.3236 25.156 80.2435 32.592 80.2434 40.3455V410.873C80.2434 414.712 80.9996 418.513 82.4688 422.06C83.938 425.607 86.0914 428.83 88.8061 431.545C91.5209 434.259 94.7437 436.413 98.2907 437.882C101.838 439.351 105.639 440.107 109.478 440.107H253.471C261.224 440.107 268.66 437.027 274.143 431.545C279.625 426.062 282.706 418.626 282.706 410.873V40.3456C282.706 36.5064 281.949 32.7048 280.48 29.1579C279.011 25.6109 276.858 22.3881 274.143 19.6734C271.428 16.9587 268.205 14.8053 264.658 13.3361C261.111 11.8669 257.31 11.1107 253.471 11.1107H253.471ZM250.328 183.001C250.322 185.007 249.522 186.93 248.104 188.349C246.685 189.767 244.762 190.567 242.755 190.573H206.155C204.149 190.567 202.226 189.767 200.807 188.349C199.388 186.93 198.589 185.007 198.583 183.001V181.107C198.589 179.101 199.388 177.178 200.807 175.759C202.226 174.341 204.149 173.541 206.155 173.535H242.755C244.762 173.541 246.685 174.341 248.104 175.759C249.522 177.178 250.322 179.101 250.328 181.107V183.001ZM254.43 149.556C254.424 151.562 253.624 153.485 252.205 154.904C250.786 156.322 248.864 157.122 246.857 157.128H115.601C113.595 157.122 111.672 156.322 110.253 154.904C108.835 153.485 108.035 151.562 108.029 149.556V147.663C108.035 145.656 108.835 143.733 110.253 142.314C111.672 140.896 113.595 140.096 115.601 140.09H246.857C248.864 140.096 250.786 140.896 252.205 142.314C253.624 143.733 254.424 145.656 254.43 147.663V149.556ZM254.43 116.111C254.424 118.117 253.624 120.04 252.205 121.459C250.786 122.878 248.864 123.677 246.857 123.683H115.601C113.595 123.677 111.672 122.878 110.253 121.459C108.835 120.04 108.035 118.117 108.029 116.111V114.218C108.035 112.211 108.835 110.288 110.253 108.87C111.672 107.451 113.595 106.651 115.601 106.645H246.857C248.864 106.651 250.786 107.451 252.205 108.87C253.624 110.288 254.424 112.211 254.43 114.218V116.111ZM254.43 82.6657C254.424 84.6723 253.624 86.595 252.205 88.0138C250.786 89.4326 248.864 90.2323 246.857 90.2382H115.601C113.595 90.2323 111.672 89.4326 110.253 88.0138C108.835 86.595 108.035 84.6723 108.029 82.6657V80.7726C108.035 78.7661 108.835 76.8434 110.253 75.4246C111.672 74.0058 113.595 73.2061 115.601 73.2002H246.857C248.864 73.2061 250.786 74.0058 252.205 75.4246C253.624 76.8434 254.424 78.7661 254.43 80.7726V82.6657Z"
+              fill="white"
+            />
+            <g id="dots">
+              <path
+                id="Vector_3"
+                d="M118.441 153.342C120.881 153.342 122.858 151.364 122.858 148.925C122.858 146.485 120.881 144.507 118.441 144.507C116.002 144.507 114.024 146.485 114.024 148.925C114.024 151.364 116.002 153.342 118.441 153.342Z"
+                fill="white"
+              />
+              <path
+                id="Vector_4"
+                d="M132.955 153.342C135.395 153.342 137.372 151.364 137.372 148.925C137.372 146.485 135.395 144.507 132.955 144.507C130.515 144.507 128.538 146.485 128.538 148.925C128.538 151.364 130.515 153.342 132.955 153.342Z"
+                fill="white"
+              />
+              <path
+                id="Vector_5"
+                d="M147.469 153.342C149.908 153.342 151.886 151.364 151.886 148.925C151.886 146.485 149.908 144.507 147.469 144.507C145.029 144.507 143.052 146.485 143.052 148.925C143.052 151.364 145.029 153.342 147.469 153.342Z"
+                fill="white"
+              />
+              <path
+                id="Vector_6"
+                d="M161.983 153.342C164.422 153.342 166.4 151.364 166.4 148.925C166.4 146.485 164.422 144.507 161.983 144.507C159.543 144.507 157.565 146.485 157.565 148.925C157.565 151.364 159.543 153.342 161.983 153.342Z"
+                fill="white"
+              />
+            </g>
+            <path
+              id="Vector_7"
+              d="M209.311 186.787C211.75 186.787 213.728 184.809 213.728 182.37C213.728 179.93 211.75 177.952 209.311 177.952C206.871 177.952 204.893 179.93 204.893 182.37C204.893 184.809 206.871 186.787 209.311 186.787Z"
+              fill="white"
+            />
+            <path
+              id="Vector_8"
+              d="M223.824 186.787C226.264 186.787 228.242 184.809 228.242 182.37C228.242 179.93 226.264 177.952 223.824 177.952C221.385 177.952 219.407 179.93 219.407 182.37C219.407 184.809 221.385 186.787 223.824 186.787Z"
+              fill="white"
+            />
+            <path
+              id="Vector_9"
+              d="M238.338 186.787C240.778 186.787 242.755 184.809 242.755 182.37C242.755 179.93 240.778 177.952 238.338 177.952C235.899 177.952 233.921 179.93 233.921 182.37C233.921 184.809 235.899 186.787 238.338 186.787Z"
+              fill="white"
+            />
+            <path
+              id="Vector_10"
+              d="M255.445 239.603H105.751C102.235 239.603 98.8618 241 96.3751 243.487C93.8883 245.974 92.4912 249.347 92.4912 252.863V325.797C92.4912 329.314 93.8883 332.687 96.3751 335.173C98.8618 337.66 102.235 339.057 105.751 339.057H255.445C258.962 339.057 262.335 337.66 264.822 335.173C267.308 332.687 268.705 329.314 268.705 325.797V252.863C268.705 249.347 267.308 245.974 264.822 243.487C262.335 241 258.962 239.603 255.445 239.603H255.445ZM102.048 248.649C102.343 248.595 109.353 247.402 115.157 250.895C120.961 254.387 123.191 261.139 123.283 261.425L123.518 262.153L122.764 262.286C121.69 262.454 120.603 262.534 119.516 262.525C116.066 262.591 112.661 261.733 109.655 260.039C103.851 256.548 101.621 249.796 101.529 249.51L101.295 248.782L102.048 248.649ZM134.542 316.363H107.843C105.896 316.363 104.028 315.589 102.651 314.213C101.275 312.836 100.501 310.968 100.501 309.021C100.501 307.074 101.275 305.206 102.651 303.829C104.028 302.452 105.896 301.679 107.843 301.679H134.542C136.49 301.679 138.357 302.452 139.734 303.829C141.111 305.206 141.885 307.074 141.885 309.021C141.885 310.968 141.111 312.836 139.734 314.213C138.357 315.589 136.49 316.363 134.542 316.363V316.363ZM256.023 315.028C256.017 317.151 255.171 319.184 253.67 320.685C252.17 322.186 250.136 323.032 248.014 323.038H227.989C225.867 323.032 223.833 322.186 222.332 320.685C220.832 319.184 219.986 317.151 219.98 315.028V303.013C219.986 300.891 220.832 298.857 222.332 297.357C223.833 295.856 225.867 295.01 227.989 295.004H248.014C250.136 295.01 252.17 295.856 253.67 297.357C255.171 298.857 256.017 300.891 256.023 303.013L256.023 315.028Z"
+              fill="#6C63FF"
+            />
+            <path
+              id="Vector_11"
+              d="M234.445 312.552H226.394C225.819 312.552 225.268 312.781 224.861 313.187C224.455 313.594 224.227 314.145 224.227 314.72C224.227 315.295 224.455 315.846 224.861 316.253C225.268 316.659 225.819 316.888 226.394 316.888H234.445C235.02 316.888 235.572 316.659 235.978 316.253C236.385 315.846 236.613 315.295 236.613 314.72C236.613 314.145 236.385 313.594 235.978 313.187C235.572 312.781 235.02 312.552 234.445 312.552V312.552Z"
+              fill="#3F3D56"
+            />
+            <path
+              id="Vector_12"
+              d="M249.309 312.552H241.258C240.683 312.552 240.132 312.781 239.725 313.187C239.319 313.594 239.09 314.145 239.09 314.72C239.09 315.295 239.319 315.846 239.725 316.253C240.132 316.659 240.683 316.888 241.258 316.888H249.309C249.884 316.888 250.436 316.659 250.842 316.253C251.249 315.846 251.477 315.295 251.477 314.72C251.477 314.145 251.249 313.594 250.842 313.187C250.436 312.781 249.884 312.552 249.309 312.552V312.552Z"
+              fill="#3F3D56"
+            />
+            <path
+              id="Vector_13"
+              d="M234.444 306.433H226.393C225.818 306.433 225.267 306.662 224.86 307.068C224.454 307.475 224.225 308.026 224.225 308.601C224.225 309.176 224.454 309.727 224.86 310.134C225.267 310.54 225.818 310.769 226.393 310.769H234.444C235.019 310.769 235.571 310.54 235.977 310.134C236.384 309.727 236.612 309.176 236.612 308.601C236.612 308.026 236.384 307.475 235.977 307.068C235.571 306.662 235.019 306.433 234.444 306.433V306.433Z"
+              fill="#3F3D56"
+            />
+            <path
+              id="Vector_14"
+              d="M249.308 306.433H241.257C240.682 306.433 240.131 306.662 239.724 307.068C239.318 307.475 239.089 308.026 239.089 308.601C239.089 309.176 239.318 309.727 239.724 310.134C240.131 310.54 240.682 310.769 241.257 310.769H249.308C249.883 310.769 250.434 310.54 250.841 310.134C251.247 309.727 251.476 309.176 251.476 308.601C251.476 308.026 251.247 307.475 250.841 307.068C250.434 306.662 249.883 306.433 249.308 306.433H249.308Z"
+              fill="#3F3D56"
+            />
+            <path
+              id="Vector_15"
+              d="M234.444 300.438H226.393C225.818 300.438 225.267 300.667 224.86 301.073C224.454 301.48 224.225 302.031 224.225 302.606C224.225 303.181 224.454 303.732 224.86 304.139C225.267 304.545 225.818 304.774 226.393 304.774H234.444C235.019 304.774 235.571 304.545 235.977 304.139C236.384 303.732 236.612 303.181 236.612 302.606C236.612 302.031 236.384 301.48 235.977 301.073C235.571 300.667 235.019 300.438 234.444 300.438V300.438Z"
+              fill="#3F3D56"
+            />
+            <path
+              id="Vector_16"
+              d="M249.308 300.438H241.257C240.682 300.438 240.131 300.667 239.724 301.073C239.318 301.48 239.089 302.031 239.089 302.606C239.089 303.181 239.318 303.732 239.724 304.139C240.131 304.545 240.682 304.774 241.257 304.774H249.308C249.883 304.774 250.434 304.545 250.841 304.139C251.247 303.732 251.476 303.181 251.476 302.606C251.476 302.031 251.247 301.48 250.841 301.073C250.434 300.667 249.883 300.438 249.308 300.438H249.308Z"
+              fill="#3F3D56"
+            />
+            <g id="square">
+              <path
+                id="Vector_17"
+                d="M359.125 267.077H339.6V286.602H359.125V267.077Z"
+                fill="#E6E6E6"
+              />
+              <path
+                id="Vector_18"
+                d="M316.588 278.932H348.665V311.009H316.588V278.932ZM347.271 280.326H317.983V309.614H347.271V280.326Z"
+                fill="#3F3D56"
+              />
+              <path
+                id="Vector_19"
+                d="M19.5253 105.994H0V125.519H19.5253V105.994Z"
+                fill="#E6E6E6"
+              />
+              <path
+                id="Vector_20"
+                d="M42.5372 113.665H10.46V81.5875H42.5372V113.665ZM11.8546 112.27H41.1425V82.9822H11.8546V112.27Z"
+                fill="#3F3D56"
+              />
+            </g>
+            <path
+              id="Vector_21"
+              d="M455.411 461.225H446.861L442.794 428.25H455.412L455.411 461.225Z"
+              fill="#FFB8B8"
+            />
+            <path
+              id="Vector_22"
+              d="M440.755 458.783H457.242V469.164H430.374C430.374 466.41 431.467 463.77 433.414 461.823C435.361 459.876 438.001 458.783 440.755 458.783V458.783Z"
+              fill="#2F2E41"
+            />
+            <path
+              id="Vector_23"
+              d="M497.948 461.225H489.398L485.332 428.25H497.949L497.948 461.225Z"
+              fill="#FFB8B8"
+            />
+            <path
+              id="Vector_24"
+              d="M483.292 458.783H499.779V469.164H472.911C472.911 466.41 474.004 463.77 475.951 461.823C477.898 459.876 480.539 458.783 483.292 458.783V458.783Z"
+              fill="#2F2E41"
+            />
+            <path
+              id="Vector_25"
+              d="M412.524 343.298C411.909 342.391 411.5 341.361 411.326 340.28C411.152 339.199 411.218 338.093 411.517 337.039C411.817 335.986 412.344 335.011 413.062 334.184C413.779 333.356 414.669 332.696 415.669 332.25L444.731 252.15L459.031 259.954L425.849 336.5C426.487 338.23 426.469 340.134 425.798 341.851C425.126 343.568 423.848 344.98 422.206 345.818C420.563 346.655 418.67 346.862 416.886 346.397C415.102 345.933 413.55 344.83 412.524 343.298V343.298Z"
+              fill="#FFB8B8"
+            />
+            <path
+              id="Vector_26"
+              d="M493.581 358.349C492.631 357.804 491.812 357.058 491.181 356.162C490.551 355.267 490.124 354.244 489.932 353.166C489.74 352.087 489.786 350.98 490.068 349.922C490.35 348.864 490.86 347.88 491.563 347.04L482.56 262.308L498.835 263.052L502.576 346.397C503.908 347.672 504.727 349.391 504.876 351.229C505.026 353.066 504.496 354.895 503.387 356.368C502.278 357.842 500.668 358.857 498.86 359.222C497.053 359.587 495.174 359.276 493.581 358.349V358.349Z"
+              fill="#FFB8B8"
+            />
+            <path
+              id="Vector_27"
+              d="M467.619 237.313C477.078 237.313 484.746 229.645 484.746 220.186C484.746 210.727 477.078 203.059 467.619 203.059C458.16 203.059 450.492 210.727 450.492 220.186C450.492 229.645 458.16 237.313 467.619 237.313Z"
+              fill="#FFB8B8"
+            />
+            <path
+              id="Vector_28"
+              d="M493.471 339.078H441.836L441.898 338.676C441.991 338.076 451.101 278.4 444.382 258.877C443.708 256.958 443.767 254.858 444.549 252.981C445.33 251.103 446.778 249.581 448.615 248.707H448.615C458.218 244.185 476.653 238.616 492.212 252.131C494.501 254.152 496.289 256.678 497.434 259.51C498.579 262.341 499.049 265.401 498.808 268.445L493.471 339.078Z"
+              fill="#CCCCCC"
+            />
+            <path
+              id="Vector_29"
+              d="M451.754 287.219L428.507 282.503L439.403 256.681C440.055 254.18 441.673 252.039 443.901 250.729C446.129 249.419 448.786 249.046 451.288 249.692C453.791 250.338 455.935 251.951 457.251 254.176C458.566 256.401 458.945 259.056 458.305 261.56L451.754 287.219Z"
+              fill="#CCCCCC"
+            />
+            <path
+              id="Vector_30"
+              d="M481.527 295.976L480.129 263.94C479.069 257.917 482.517 252.224 487.819 251.294C493.122 250.366 498.301 254.543 499.366 260.61L504.619 290.545L481.527 295.976Z"
+              fill="#CCCCCC"
+            />
+            <path
+              id="Vector_31"
+              d="M491.754 335.243C500.062 366.885 500.968 407.116 498.727 450.999L487.57 449.605L467.347 365.925L456.19 450.999L443.638 450.302C439.888 404.258 436.237 364.729 442.243 338.729L491.754 335.243Z"
+              fill="#2F2E41"
+            />
+            <path
+              id="Vector_32"
+              d="M478.904 233.423C475.709 236.826 469.775 234.999 469.359 230.349C469.326 229.988 469.328 229.625 469.366 229.264C469.581 227.205 470.771 225.335 470.485 223.16C470.421 222.619 470.219 222.103 469.9 221.662C467.354 218.252 461.377 223.187 458.974 220.1C457.5 218.208 459.232 215.228 458.102 213.113C456.609 210.321 452.189 211.698 449.417 210.169C446.333 208.468 446.518 203.736 448.548 200.858C451.024 197.348 455.365 195.475 459.652 195.205C463.938 194.935 468.196 196.094 472.198 197.654C476.745 199.426 481.255 201.875 484.053 205.873C487.456 210.736 487.784 217.273 486.082 222.959C485.046 226.418 481.513 230.643 478.904 233.423Z"
+              fill="#2F2E41"
+            />
+            <path
+              id="Vector_33"
+              d="M596.303 470H330.62C330.435 470 330.257 469.927 330.127 469.796C329.996 469.665 329.922 469.488 329.922 469.303C329.922 469.118 329.996 468.94 330.127 468.81C330.257 468.679 330.435 468.605 330.62 468.605H596.303C596.488 468.605 596.665 468.679 596.796 468.81C596.926 468.94 597 469.118 597 469.303C597 469.488 596.926 469.665 596.796 469.796C596.665 469.927 596.488 470 596.303 470Z"
+              fill="#3F3D56"
+            />
+          </g>
+          <defs>
+            <clipPath id="clip0_1_55">
+              <rect width="597" height="470" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+    </div>
+    <hr />
+
+    <div class="section section--2" id="section--2">
+      <div class="container-lg">
+        <div class="row gy-5">
+          <div class="col-12 col-xs-12 col-md-10 m-lg-4 title">FEATURES</div>
+          <div class="col-10 m-lg-5 title-desc">
+            Everything you need in a modern bank and more.
+          </div>
+          <div class="col- col-xs-12 col-md-6 col-xs-12 ms-2 feature_img">
+            <img
+              class="lazy"
+              src="img/Digital Solutions 1600px 1 lazy.png"
+              data-src="img/Digital Solutions 1600px 1.png"
+            />
+          </div>
+          <div
+            class="col-12 col-xs-12 col-md-4 col-xs-12 img_desc d-flex flex-column justify-content-center"
+          >
+            <div class="circle"></div>
+            <div class="title">100% digital bank</div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              alias sint quos? Accusantium a fugiat porro reiciendis saepe
+              quibusdam debitis ducimus.
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-xs-12 order-1 order-md-0 col-md-5 col-sm-12 img_desc d-flex flex-column justify-content-center"
+          >
+            <div class="circle"></div>
+            <div class="title">100% digital bank</div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              alias sint quos? Accusantium a fugiat porro reiciendis saepe
+              quibusdam debitis ducimus.
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-xs-12 order-0 order-md-1 col-md-6 col-sm-12 ms-2 feature_img"
+          >
+            <img
+              class="lazy"
+              src="img/botanical-cactus-close-up-decor-wallpaper-preview 1 (1).png"
+              data-src="img/botanical-cactus-close-up-decor-wallpaper-preview 1.png"
+            />
+          </div>
+
+          <div
+            class="col-12 col-xs-12 col-md-6 order-2 col-sm-12 ms-2 feature_img"
+          >
+            <img
+              class="lazy"
+              src="img/Group 7 lazy.png"
+              data-src="img/Group 7.png"
+            />
+          </div>
+          <div
+            class="col-12 col-xs-12 col-md-5 order-3 col-sm-12 img_desc d-flex flex-column justify-content-center"
+          >
+            <div class="circle"></div>
+            <div class="title">100% digital bank</div>
+            <div class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
+              alias sint quos? Accusantium a fugiat porro reiciendis saepe
+              quibusdam debitis ducimus.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="section section--3" id="section--3">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-12 col-xs-12 col-md-10 m-lg-4 title">Opreations</div>
+          <div class="col-10 m-lg-5 title-desc">
+            Everything as simple as possible, but no simpler.
+          </div>
+        </div>
+        <div class="tab-container">
+          <div class="tab-content">
+            <div class="content_ content--1 content--active">
+              <div class="title">
+                Tranfser money to anyone, instantly! No fees, no BS.
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+
+            <div class="content_ content--2">
+              <div class="title">
+                Buy a home or make your dreams come true, with instant loans.
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+
+            <div class="content_ content--3">
+              <div class="title">
+                No longer need your account? No problem! Close it instantly.
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+          <div class="circle tab-circle"></div>
+          <div class="tabs">
+            <div
+              class="tab tab--1 tab--active"
+              data-soruce="1"
+              data-color="rgba(250, 250, 193, 0.881)"
+            >
+              <div class="content">
+                <div class="icon icon--1">
+                  <i class="fa-solid fa-money-bill-transfer"></i>
+                </div>
+                <h5>Transfers</h5>
+              </div>
+            </div>
+
+            <div class="tab tab--2" data-soruce="2" data-color="#40916C">
+              <div class="content">
+                <div class="icon icon--2">
+                  <i class="fa-solid fa-hand-holding-dollar"></i>
+                </div>
+                <h5>Loan</h5>
+              </div>
+            </div>
+
+            <div
+              class="tab tab--3"
+              data-soruce="3"
+              data-color="rgba(238, 132, 132, 0.881)"
+            >
+              <div class="content">
+                <div class="icon icon--3">
+                  <i class="fa-solid fa-user-slash"></i>
+                </div>
+                <h5>Closing</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="section section--4" id="section--4">
+      <div class="container">
+        <div class="row gy-5">
+          <div class="col-12 col-xs-12 col-md-10 m-lg-4 title">
+            NOT SURE YET?
+          </div>
+          <div class="col-10 m-lg-5 title-desc">
+            Millions of Bankists are already making their lifes simpler.
+          </div>
+        </div>
+      </div>
+      <div class="slider">
+        <div class="slide slide--1 slide--active">
+          <img src="img/user-2.jpg" alt="" />
+          <div class="person_name">Aarav Lynn</div>
+          <div class="test">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem a
+            hic enim reprehenderit laboriosam culpa beatae aperiam laborum
+            excepturi! Omnis non similique praesentium ea ullam, tempora tenetur
+            quos repudiandae quia eum natus magni facere minus alias, odit,
+            commodi voluptates distinctio nihil aliquid asperiores ab.
+            Doloremque iusto adipisci et cum repudiandae.
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <img src="img/user-2.jpg" alt="" />
+          <div class="person_name">Aarav</div>
+          <div class="test">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem a
+            hic enim reprehenderit laboriosam culpa beatae aperiam laborum
+            excepturi! Omnis non similique praesentium ea ullam, tempora tenetur
+            quos repudiandae quia eum natus magni facere minus alias, odit,
+            commodi voluptates distinctio nihil aliquid asperiores ab.
+            Doloremque iusto adipisci et cum repudiandae.
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <img src="img/user-2.jpg" alt="" />
+          <div class="person_name">Lynn</div>
+          <div class="test">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem a
+            hic enim reprehenderit laboriosam culpa beatae aperiam laborum
+            excepturi! Omnis non similique praesentium ea ullam, tempora tenetur
+            quos repudiandae quia eum natus magni facere minus alias, odit,
+            commodi voluptates distinctio nihil aliquid asperiores ab.
+            Doloremque iusto adipisci et cum repudiandae.
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="section section--5">
+      <h1>
+        The best day to join Bankist was one year ago. The second best is today!
+      </h1>
+      <button class="btn-sec5">Open your free account today!</button>
+    </div>
+
+    <div class="container-xxl section--6">
+      <div class="row txt_con gy-5">
+        <div class="col-6 col-md-4 col-lg-2 text">About</div>
+        <div class="col-6 col-md-4 col-lg-2 text">Pricing</div>
+        <div class="col-6 col-md-4 col-lg-2 text">Privacy Policy</div>
+        <div class="col-6 col-md-4 col-lg-2 text">Careers</div>
+        <div class="col-6 col-md-4 col-lg-2 text">Blog</div>
+        <div class="col-6 col-md-4 col-lg-2 text">Contact us</div>
+      </div>
+      <div class="row">
+        <div class="col-12 logo_2">
+          <svg
+            width="54"
+            height="55"
+            viewBox="0 0 54 55"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M50.388 17.3332C51.6344 20.6235 52.2519 24.5379 51.9038 29.1664C50.4602 48.3662 36.9749 53.0551 30.4127 52.9995H5.64054L40.0919 25.5397M50.388 17.3332C48.8209 13.1966 46.2597 10.0464 43.373 7.70335M50.388 17.3332L40.0919 25.5397M43.373 7.70335C39.031 4.17915 33.9526 2.48118 30.4127 2H4L23.1943 24.9998L33.2837 16.3516M43.373 7.70335L33.2837 16.3516M33.2837 16.3516L40.0919 25.5397"
+              stroke="url(#paint0_linear_1_12)"
+              stroke-width="3"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_1_12"
+                x1="-18.3114"
+                y1="88.3325"
+                x2="35.9413"
+                y2="-3.92377"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#FFF" />
+                <stop offset="1" stop-color="#FFF" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center p-5" style="color: #7bb6af">
+          © Copyright by Diaa H. H. Dwaikat.
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
